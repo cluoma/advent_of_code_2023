@@ -6,8 +6,7 @@
 #include <sstream>
 #include <unordered_map>
 #include <vector>
-
-#include "inttypes.h"
+#include <inttypes.h>
 
 void trim(std::string & str)
 {
