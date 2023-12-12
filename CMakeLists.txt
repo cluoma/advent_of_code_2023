@@ -5,13 +5,13 @@ set(CMAKE_CXX_STANDARD 23)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 
-add_executable(day1_x main.cpp)
+add_executable(day1_x day1/day1.cpp)
 
-add_executable(day2_x day2.cpp)
+add_executable(day2_x day2/day2.cpp)
 
-add_executable(day3_x day3.cpp)
+add_executable(day3_x day3/day3.cpp)
 
-add_executable(day4_x day4.cpp)
+add_executable(day4_x day4/day4.cpp)
 
 add_executable(day8_x day8/day8.cpp)
 
