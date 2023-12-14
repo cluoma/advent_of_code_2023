@@ -83,8 +83,6 @@ count_possibilities <- function(d) {
 }
 
 m <- hashmap()
-vals <- c()
-for (map in data) {
-  vals <- c(vals, count_possibilities(map))
-}
-print("Part 2: ", sum(vals))
+sapply(data, \(x) {count_possibilities(x)}) %>%
+  sum() %>%
+  paste0("Part 2: ", .)
