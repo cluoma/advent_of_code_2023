@@ -98,7 +98,7 @@ int main()
     // ---------------------------------------------------------
     // Part 2 - way more convoluted than it needs to be
     std::vector<Token> lightBox[256];
-    for (auto t : tokens)
+    for (auto & t : tokens)
     {
         uint64_t delimPos = t.find_first_not_of("abcdefghijklmnopqrstuvwxyz");
         std::string label = t.substr(0, delimPos);
